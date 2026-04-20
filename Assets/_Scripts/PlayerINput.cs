@@ -15,9 +15,20 @@ public class PlayerINput : NetworkBehaviour
     private Vector2 rawInput;
     [SerializeField] private float smoothTime = 0.1f;
 
+    private void OnEnable()
+    {
+        if (movementReference != null)
+            movementReference.action.Enable();
+    }
+
+    private void OnDisable()
+    {
+        if (movementReference != null)
+            movementReference.action.Disable();
+    }
     private void Update()
     {
-        if (!IsOwner)
+        if (IsOwner == false)
         {
             return;
         }

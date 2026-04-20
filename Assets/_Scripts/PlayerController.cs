@@ -11,7 +11,7 @@ public class PlayerController : NetworkBehaviour
 
     private void Update()
     {
-        if (!IsOwner)
+        if (IsOwner == false)
         {
             return;
         }

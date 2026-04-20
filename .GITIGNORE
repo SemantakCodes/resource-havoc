@@ -1,0 +1,100 @@
+# =========================
+# Unity Generated Folders
+# =========================
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+UserSettings/
+
+# =========================
+# Memory Captures
+# =========================
+[Mm]emoryCaptures/
+
+# =========================
+# Asset Import Pipeline
+# =========================
+Assets/AssetStoreTools*
+
+# =========================
+# Visual Studio / VS Code
+# =========================
+.vs/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# VS Code
+.vscode/
+
+# =========================
+# Rider / JetBrains
+# =========================
+.idea/
+*.sln.iml
+*.slnx
+
+# =========================
+# OS Generated Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Unity Meta Files (IMPORTANT)
+# =========================
+# Keep meta files for version control!
+!*.meta
+
+# =========================
+# Addressables (optional)
+# =========================
+ServerData/
+
+# =========================
+# Streaming Assets (optional large files)
+# =========================
+# Uncomment if needed
+# Assets/StreamingAssets/*
+
+# =========================
+# Crash Reports
+# =========================
+sysinfo.txt
+
+# =========================
+# Android / iOS Build Files
+# =========================
+*.apk
+*.aab
+*.obb
+*.unitypackage
+
+# =========================
+# IL2CPP / Mono builds
+# =========================
+*.apk*
+*.aab*
+*.symbols.zip
+
+# =========================
+# Temporary Auto Generated
+# =========================
+*.log
+*.bak
+*.swp
+*.orig

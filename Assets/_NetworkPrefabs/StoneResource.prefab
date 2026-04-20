@@ -66,6 +66,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: eb935070b20a7c9468521b5b2cd4765b, type: 3}
       insertIndex: -1
       addedObject: {fileID: 3806709401468440944}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: eb935070b20a7c9468521b5b2cd4765b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -7104819221658601012}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: eb935070b20a7c9468521b5b2cd4765b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1323599887207770473}
   m_SourcePrefab: {fileID: 100100000, guid: eb935070b20a7c9468521b5b2cd4765b, type: 3}
 --- !u!1 &7854214020428166463 stripped
 GameObject:
@@ -105,3 +111,43 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.45, y: 0.3000001, z: 0.75000006}
   m_Center: {x: 0, y: 0.14999999, z: -0.000000029802322}
+--- !u!114 &-7104819221658601012
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7854214020428166463}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.Netcode.Runtime::Unity.Netcode.NetworkObject
+  GlobalObjectIdHash: 1134533849
+  InScenePlacedSourceGlobalObjectIdHash: 0
+  DeferredDespawnTick: 0
+  Ownership: 1
+  AlwaysReplicateAsRoot: 0
+  SynchronizeTransform: 1
+  ActiveSceneSynchronization: 0
+  SceneMigrationSynchronization: 1
+  SpawnWithObservers: 1
+  DontDestroyWithOwner: 0
+  AutoObjectParentSync: 1
+  SyncOwnerTransformWhenParented: 1
+  AllowOwnerToParent: 0
+--- !u!114 &1323599887207770473
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7854214020428166463}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 535cef3b53a16634f8178e3899d3211d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PickableResources
+  ShowTopMostFoldoutHeaderGroup: 1
+  m_outline: {fileID: 1952750040726257212}
+  m_objectType: 4

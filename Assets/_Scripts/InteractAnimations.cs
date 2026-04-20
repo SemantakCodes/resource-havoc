@@ -1,7 +1,12 @@
 using System.Collections;
 using UnityEngine;
 
-
+/// <summary>
+/// Helper script to add some visual feedback when the player interacts with the tree. 
+/// It scales up the tree a bit and then scales it back to the original size.
+/// It is not important in terms of the Multiplayer setup beyond the fact that we dont have to synchronize things like visual feedback across the network.
+/// It doenst matter if the feedback appears slightly different for you and for the other clients as it is only a visual effect.
+/// </summary>
 public class InteractAnimations : MonoBehaviour
 {
     [SerializeField] private Transform m_resourceVisual;

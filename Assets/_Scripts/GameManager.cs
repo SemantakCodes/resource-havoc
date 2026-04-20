@@ -1,34 +1,37 @@
-using UnityEngine;
+using System;
 using Unity.Netcode;
+using UnityEngine;
 
 public class GameManager : NetworkBehaviour
 {
-    [SerializeField] private MultiplayerUI multiplayerUI;
+    [SerializeField]
+    private MultiplayerUI m_multiplayerUI;
 
     private void Start()
     {
-        if(multiplayerUI != null)
+        if (m_multiplayerUI != null)
         {
-            multiplayerUI.OnStartHost += StartHost;
-            multiplayerUI.OnStartClient += StartClient;
-            multiplayerUI.OnDiconnectClient += DisconnectClient;     
+            m_multiplayerUI.OnStartHost += StartHost;
+            m_multiplayerUI.OnStartClient += StartClient;
+            m_multiplayerUI.OnDiconnectClient += DisconnectClient;
         }
     }
 
     private void DisconnectClient()
     {
-        multiplayerUI.EnableButtons();
+        m_multiplayerUI.EnableButtons();
         NetworkManager.Shutdown();
     }
+
     private void StartClient()
     {
-        multiplayerUI.DisableButtons();
+        m_multiplayerUI.DisableButtons();
         NetworkManager.StartClient();
     }
+
     private void StartHost()
     {
-        multiplayerUI.DisableButtons();
+        m_multiplayerUI.DisableButtons();
         NetworkManager.StartHost();
     }
-
 }

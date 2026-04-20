@@ -1664,6 +1664,18 @@ PrefabInstance:
       propertyPath: Components.Array.data[1].name
       value: Rock (1) (Mesh Renderer)
       objectReference: {fileID: 0}
+    - target: {fileID: 5590008544096652540, guid: 28ea3d07c5fa049479b7b6f4f3acc6c8, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 1320352145
+      objectReference: {fileID: 0}
+    - target: {fileID: 5590008544096652540, guid: 28ea3d07c5fa049479b7b6f4f3acc6c8, type: 3}
+      propertyPath: SceneMigrationSynchronization
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5590008544096652540, guid: 28ea3d07c5fa049479b7b6f4f3acc6c8, type: 3}
+      propertyPath: InScenePlacedSourceGlobalObjectIdHash
+      value: 3658202725
+      objectReference: {fileID: 0}
     - target: {fileID: 6211565343829425787, guid: 28ea3d07c5fa049479b7b6f4f3acc6c8, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.77373
@@ -1931,6 +1943,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -1238636348593074877, guid: 0d813fa26ac4fa24889ecc38506d5edd, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 2735091084
+      objectReference: {fileID: 0}
+    - target: {fileID: -1238636348593074877, guid: 0d813fa26ac4fa24889ecc38506d5edd, type: 3}
+      propertyPath: SceneMigrationSynchronization
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1238636348593074877, guid: 0d813fa26ac4fa24889ecc38506d5edd, type: 3}
+      propertyPath: InScenePlacedSourceGlobalObjectIdHash
+      value: 491798982
+      objectReference: {fileID: 0}
     - target: {fileID: 2797376856292171619, guid: 0d813fa26ac4fa24889ecc38506d5edd, type: 3}
       propertyPath: m_Name
       value: pickaxe
@@ -2170,6 +2194,18 @@ PrefabInstance:
     - target: {fileID: -1926054152944378366, guid: 0f593c205eb9e5a48825e85731d1f215, type: 3}
       propertyPath: GlobalObjectIdHash
       value: 1224988709
+      objectReference: {fileID: 0}
+    - target: {fileID: 3873745551854746226, guid: 0f593c205eb9e5a48825e85731d1f215, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 258231811
+      objectReference: {fileID: 0}
+    - target: {fileID: 3873745551854746226, guid: 0f593c205eb9e5a48825e85731d1f215, type: 3}
+      propertyPath: SceneMigrationSynchronization
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3873745551854746226, guid: 0f593c205eb9e5a48825e85731d1f215, type: 3}
+      propertyPath: InScenePlacedSourceGlobalObjectIdHash
+      value: 3958348162
       objectReference: {fileID: 0}
     - target: {fileID: 7150301565930258685, guid: 0f593c205eb9e5a48825e85731d1f215, type: 3}
       propertyPath: m_Name
@@ -2455,7 +2491,7 @@ MonoBehaviour:
   AlwaysReplicateAsRoot: 0
   SynchronizeTransform: 1
   ActiveSceneSynchronization: 0
-  SceneMigrationSynchronization: 1
+  SceneMigrationSynchronization: 0
   SpawnWithObservers: 1
   DontDestroyWithOwner: 0
   AutoObjectParentSync: 1
@@ -2658,6 +2694,18 @@ PrefabInstance:
     - target: {fileID: 5127384196278506619, guid: 28ea3d07c5fa049479b7b6f4f3acc6c8, type: 3}
       propertyPath: Components.Array.data[1].name
       value: Rock (Mesh Renderer)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5590008544096652540, guid: 28ea3d07c5fa049479b7b6f4f3acc6c8, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 710431168
+      objectReference: {fileID: 0}
+    - target: {fileID: 5590008544096652540, guid: 28ea3d07c5fa049479b7b6f4f3acc6c8, type: 3}
+      propertyPath: SceneMigrationSynchronization
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5590008544096652540, guid: 28ea3d07c5fa049479b7b6f4f3acc6c8, type: 3}
+      propertyPath: InScenePlacedSourceGlobalObjectIdHash
+      value: 3658202725
       objectReference: {fileID: 0}
     - target: {fileID: 6211565343829425787, guid: 28ea3d07c5fa049479b7b6f4f3acc6c8, type: 3}
       propertyPath: m_LocalPosition.x
